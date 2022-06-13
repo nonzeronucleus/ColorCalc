@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		287CAD372857C22600E441A3 /* ColorCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD362857C22600E441A3 /* ColorCalcApp.swift */; };
+		287CAD392857C22600E441A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD382857C22600E441A3 /* ContentView.swift */; };
+		287CAD3B2857C22800E441A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287CAD3A2857C22800E441A3 /* Assets.xcassets */; };
+		287CAD3E2857C22800E441A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287CAD3D2857C22800E441A3 /* Preview Assets.xcassets */; };
+		287CAD492857C22800E441A3 /* ColorCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD482857C22800E441A3 /* ColorCalcTests.swift */; };
+		287CAD532857C22800E441A3 /* ColorCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD522857C22800E441A3 /* ColorCalcUITests.swift */; };
+		287CAD552857C22800E441A3 /* ColorCalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD542857C22800E441A3 /* ColorCalcUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		287CAD452857C22800E441A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287CAD2B2857C22600E441A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 287CAD322857C22600E441A3;
+			remoteInfo = ColorCalc;
+		};
+		287CAD4F2857C22800E441A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287CAD2B2857C22600E441A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 287CAD322857C22600E441A3;
+			remoteInfo = ColorCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		287CAD332857C22600E441A3 /* ColorCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		287CAD362857C22600E441A3 /* ColorCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCalcApp.swift; sourceTree = "<group>"; };
+		287CAD382857C22600E441A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		287CAD3A2857C22800E441A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		287CAD3D2857C22800E441A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		287CAD3F2857C22800E441A3 /* ColorCalc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ColorCalc.entitlements; sourceTree = "<group>"; };
+		287CAD442857C22800E441A3 /* ColorCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		287CAD482857C22800E441A3 /* ColorCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCalcTests.swift; sourceTree = "<group>"; };
+		287CAD4E2857C22800E441A3 /* ColorCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		287CAD522857C22800E441A3 /* ColorCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCalcUITests.swift; sourceTree = "<group>"; };
+		287CAD542857C22800E441A3 /* ColorCalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		287CAD302857C22600E441A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287CAD412857C22800E441A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287CAD4B2857C22800E441A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		287CAD2A2857C22600E441A3 = {
+			isa = PBXGroup;
+			children = (
+				287CAD352857C22600E441A3 /* ColorCalc */,
+				287CAD472857C22800E441A3 /* ColorCalcTests */,
+				287CAD512857C22800E441A3 /* ColorCalcUITests */,
+				287CAD342857C22600E441A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		287CAD342857C22600E441A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				287CAD332857C22600E441A3 /* ColorCalc.app */,
+				287CAD442857C22800E441A3 /* ColorCalcTests.xctest */,
+				287CAD4E2857C22800E441A3 /* ColorCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		287CAD352857C22600E441A3 /* ColorCalc */ = {
+			isa = PBXGroup;
+			children = (
+				287CAD362857C22600E441A3 /* ColorCalcApp.swift */,
+				287CAD382857C22600E441A3 /* ContentView.swift */,
+				287CAD3A2857C22800E441A3 /* Assets.xcassets */,
+				287CAD3F2857C22800E441A3 /* ColorCalc.entitlements */,
+				287CAD3C2857C22800E441A3 /* Preview Content */,
+			);
+			path = ColorCalc;
+			sourceTree = "<group>";
+		};
+		287CAD3C2857C22800E441A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				287CAD3D2857C22800E441A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		287CAD472857C22800E441A3 /* ColorCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				287CAD482857C22800E441A3 /* ColorCalcTests.swift */,
+			);
+			path = ColorCalcTests;
+			sourceTree = "<group>";
+		};
+		287CAD512857C22800E441A3 /* ColorCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				287CAD522857C22800E441A3 /* ColorCalcUITests.swift */,
+				287CAD542857C22800E441A3 /* ColorCalcUITestsLaunchTests.swift */,
+			);
+			path = ColorCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		287CAD322857C22600E441A3 /* ColorCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287CAD582857C22800E441A3 /* Build configuration list for PBXNativeTarget "ColorCalc" */;
+			buildPhases = (
+				287CAD2F2857C22600E441A3 /* Sources */,
+				287CAD302857C22600E441A3 /* Frameworks */,
+				287CAD312857C22600E441A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorCalc;
+			productName = ColorCalc;
+			productReference = 287CAD332857C22600E441A3 /* ColorCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		287CAD432857C22800E441A3 /* ColorCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287CAD5B2857C22800E441A3 /* Build configuration list for PBXNativeTarget "ColorCalcTests" */;
+			buildPhases = (
+				287CAD402857C22800E441A3 /* Sources */,
+				287CAD412857C22800E441A3 /* Frameworks */,
+				287CAD422857C22800E441A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				287CAD462857C22800E441A3 /* PBXTargetDependency */,
+			);
+			name = ColorCalcTests;
+			productName = ColorCalcTests;
+			productReference = 287CAD442857C22800E441A3 /* ColorCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		287CAD4D2857C22800E441A3 /* ColorCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287CAD5E2857C22800E441A3 /* Build configuration list for PBXNativeTarget "ColorCalcUITests" */;
+			buildPhases = (
+				287CAD4A2857C22800E441A3 /* Sources */,
+				287CAD4B2857C22800E441A3 /* Frameworks */,
+				287CAD4C2857C22800E441A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				287CAD502857C22800E441A3 /* PBXTargetDependency */,
+			);
+			name = ColorCalcUITests;
+			productName = ColorCalcUITests;
+			productReference = 287CAD4E2857C22800E441A3 /* ColorCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		287CAD2B2857C22600E441A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					287CAD322857C22600E441A3 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					287CAD432857C22800E441A3 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 287CAD322857C22600E441A3;
+					};
+					287CAD4D2857C22800E441A3 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 287CAD322857C22600E441A3;
+					};
+				};
+			};
+			buildConfigurationList = 287CAD2E2857C22600E441A3 /* Build configuration list for PBXProject "ColorCalc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 287CAD2A2857C22600E441A3;
+			productRefGroup = 287CAD342857C22600E441A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				287CAD322857C22600E441A3 /* ColorCalc */,
+				287CAD432857C22800E441A3 /* ColorCalcTests */,
+				287CAD4D2857C22800E441A3 /* ColorCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		287CAD312857C22600E441A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287CAD3E2857C22800E441A3 /* Preview Assets.xcassets in Resources */,
+				287CAD3B2857C22800E441A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287CAD422857C22800E441A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287CAD4C2857C22800E441A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		287CAD2F2857C22600E441A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287CAD392857C22600E441A3 /* ContentView.swift in Sources */,
+				287CAD372857C22600E441A3 /* ColorCalcApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287CAD402857C22800E441A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287CAD492857C22800E441A3 /* ColorCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287CAD4A2857C22800E441A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287CAD532857C22800E441A3 /* ColorCalcUITests.swift in Sources */,
+				287CAD552857C22800E441A3 /* ColorCalcUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		287CAD462857C22800E441A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 287CAD322857C22600E441A3 /* ColorCalc */;
+			targetProxy = 287CAD452857C22800E441A3 /* PBXContainerItemProxy */;
+		};
+		287CAD502857C22800E441A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 287CAD322857C22600E441A3 /* ColorCalc */;
+			targetProxy = 287CAD4F2857C22800E441A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		287CAD562857C22800E441A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		287CAD572857C22800E441A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		287CAD592857C22800E441A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ColorCalc/ColorCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = 94QXMD3DVD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkysymbol.ColorCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		287CAD5A2857C22800E441A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ColorCalc/ColorCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = 94QXMD3DVD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkysymbol.ColorCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		287CAD5C2857C22800E441A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94QXMD3DVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkysymbol.ColorCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorCalc.app/Contents/MacOS/ColorCalc";
+			};
+			name = Debug;
+		};
+		287CAD5D2857C22800E441A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94QXMD3DVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkysymbol.ColorCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorCalc.app/Contents/MacOS/ColorCalc";
+			};
+			name = Release;
+		};
+		287CAD5F2857C22800E441A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94QXMD3DVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkysymbol.ColorCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ColorCalc;
+			};
+			name = Debug;
+		};
+		287CAD602857C22800E441A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94QXMD3DVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkysymbol.ColorCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ColorCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		287CAD2E2857C22600E441A3 /* Build configuration list for PBXProject "ColorCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287CAD562857C22800E441A3 /* Debug */,
+				287CAD572857C22800E441A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287CAD582857C22800E441A3 /* Build configuration list for PBXNativeTarget "ColorCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287CAD592857C22800E441A3 /* Debug */,
+				287CAD5A2857C22800E441A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287CAD5B2857C22800E441A3 /* Build configuration list for PBXNativeTarget "ColorCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287CAD5C2857C22800E441A3 /* Debug */,
+				287CAD5D2857C22800E441A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287CAD5E2857C22800E441A3 /* Build configuration list for PBXNativeTarget "ColorCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287CAD5F2857C22800E441A3 /* Debug */,
+				287CAD602857C22800E441A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 287CAD2B2857C22600E441A3 /* Project object */;
+}
