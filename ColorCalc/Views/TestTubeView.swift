@@ -21,7 +21,7 @@ struct TestTubeView: View {
                         .frame(width: 40, height: 40)
                 }
                 else {
-                    Color.white
+                    Color.black
                         .frame(width: 40, height: 40)
                 }
             }

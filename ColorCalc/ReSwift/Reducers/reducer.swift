@@ -5,18 +5,16 @@ func reducer(action: Action, state: GameState?) -> GameState {
     
 ////    state.error = nil
 //
-//    switch action {
-//        // Mark : Game management
-//
-//        case let action as StartGameAction:
-//            state = handleStartGame(state:state, action: action)
+    switch action {
+        case let action as MoveAction:
+            state = handleMove(state:state, action: action)
 //
 //        case let action as SlideTilesAction:
 //            state = handleSlideTiles(state: state, action: action)
 //
-//        default:
-//            break
-//    }
-//
+        default:
+            break
+    }
+
     return state
 }

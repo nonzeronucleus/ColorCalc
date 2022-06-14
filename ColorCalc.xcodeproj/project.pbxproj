@@ -22,6 +22,8 @@
 		287CAD712857C64F00E441A3 /* reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD702857C64F00E441A3 /* reducer.swift */; };
 		287CAD732857C92500E441A3 /* ChemColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD722857C92500E441A3 /* ChemColor.swift */; };
 		287CAD752857CD3E00E441A3 /* TestTube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD742857CD3E00E441A3 /* TestTube.swift */; };
+		287CAD782858AAAC00E441A3 /* MoveAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD772858AAAC00E441A3 /* MoveAction.swift */; };
+		287CAD7A2858AB8900E441A3 /* handleMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD792858AB8900E441A3 /* handleMove.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		287CAD702857C64F00E441A3 /* reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reducer.swift; sourceTree = "<group>"; };
 		287CAD722857C92500E441A3 /* ChemColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemColor.swift; sourceTree = "<group>"; };
 		287CAD742857CD3E00E441A3 /* TestTube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTube.swift; sourceTree = "<group>"; };
+		287CAD772858AAAC00E441A3 /* MoveAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveAction.swift; sourceTree = "<group>"; };
+		287CAD792858AB8900E441A3 /* handleMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handleMove.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,7 @@
 		287CAD662857C3E400E441A3 /* ReSwift */ = {
 			isa = PBXGroup;
 			children = (
+				287CAD762858AA7000E441A3 /* Actions */,
 				287CAD6F2857C62100E441A3 /* Reducers */,
 				287CAD6B2857C47B00E441A3 /* State */,
 				287CAD672857C40100E441A3 /* ObservableState.swift */,
@@ -180,8 +185,17 @@
 			isa = PBXGroup;
 			children = (
 				287CAD702857C64F00E441A3 /* reducer.swift */,
+				287CAD792858AB8900E441A3 /* handleMove.swift */,
 			);
 			path = Reducers;
+			sourceTree = "<group>";
+		};
+		287CAD762858AA7000E441A3 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				287CAD772858AAAC00E441A3 /* MoveAction.swift */,
+			);
+			path = Actions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,9 +338,11 @@
 				287CAD622857C31500E441A3 /* TestTubeView.swift in Sources */,
 				287CAD392857C22600E441A3 /* ContentView.swift in Sources */,
 				287CAD712857C64F00E441A3 /* reducer.swift in Sources */,
+				287CAD782858AAAC00E441A3 /* MoveAction.swift in Sources */,
 				287CAD6D2857C48500E441A3 /* GameState.swift in Sources */,
 				287CAD682857C40100E441A3 /* ObservableState.swift in Sources */,
 				287CAD752857CD3E00E441A3 /* TestTube.swift in Sources */,
+				287CAD7A2858AB8900E441A3 /* handleMove.swift in Sources */,
 				287CAD732857C92500E441A3 /* ChemColor.swift in Sources */,
 				287CAD372857C22600E441A3 /* ColorCalcApp.swift in Sources */,
 			);

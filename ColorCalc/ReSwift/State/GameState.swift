@@ -19,5 +19,7 @@ struct GameState {
         tubes.append(TestTube([.DarkBrown, .Yellow, .Grey,.LightGreen]))
         tubes.append(TestTube([.Grey, .Yellow, .BrightGreen,.DarkBlue]))
         tubes.append(TestTube([.LightGreen, .LightBlue, .Pink,.LightBrown]))
+        tubes.append(TestTube([nil, nil, nil,nil]))
+        tubes.append(TestTube([nil, nil, nil,nil]))
     }
 }

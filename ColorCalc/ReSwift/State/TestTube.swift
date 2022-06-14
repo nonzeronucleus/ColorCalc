@@ -4,5 +4,4 @@ struct TestTube {
     init(_ colors:[ChemColor?]) {
         self.colors = colors
     }
-    
 }
