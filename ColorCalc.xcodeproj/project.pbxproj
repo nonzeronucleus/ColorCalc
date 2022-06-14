@@ -14,6 +14,14 @@
 		287CAD492857C22800E441A3 /* ColorCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD482857C22800E441A3 /* ColorCalcTests.swift */; };
 		287CAD532857C22800E441A3 /* ColorCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD522857C22800E441A3 /* ColorCalcUITests.swift */; };
 		287CAD552857C22800E441A3 /* ColorCalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD542857C22800E441A3 /* ColorCalcUITestsLaunchTests.swift */; };
+		287CAD622857C31500E441A3 /* TestTubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD612857C31500E441A3 /* TestTubeView.swift */; };
+		287CAD652857C38300E441A3 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 287CAD642857C38300E441A3 /* ReSwift */; };
+		287CAD682857C40100E441A3 /* ObservableState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD672857C40100E441A3 /* ObservableState.swift */; };
+		287CAD6A2857C45700E441A3 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD692857C45700E441A3 /* Store.swift */; };
+		287CAD6D2857C48500E441A3 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD6C2857C48500E441A3 /* GameState.swift */; };
+		287CAD712857C64F00E441A3 /* reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD702857C64F00E441A3 /* reducer.swift */; };
+		287CAD732857C92500E441A3 /* ChemColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD722857C92500E441A3 /* ChemColor.swift */; };
+		287CAD752857CD3E00E441A3 /* TestTube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD742857CD3E00E441A3 /* TestTube.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,13 @@
 		287CAD4E2857C22800E441A3 /* ColorCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		287CAD522857C22800E441A3 /* ColorCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCalcUITests.swift; sourceTree = "<group>"; };
 		287CAD542857C22800E441A3 /* ColorCalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		287CAD612857C31500E441A3 /* TestTubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTubeView.swift; sourceTree = "<group>"; };
+		287CAD672857C40100E441A3 /* ObservableState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableState.swift; sourceTree = "<group>"; };
+		287CAD692857C45700E441A3 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		287CAD6C2857C48500E441A3 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		287CAD702857C64F00E441A3 /* reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reducer.swift; sourceTree = "<group>"; };
+		287CAD722857C92500E441A3 /* ChemColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemColor.swift; sourceTree = "<group>"; };
+		287CAD742857CD3E00E441A3 /* TestTube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTube.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287CAD652857C38300E441A3 /* ReSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +111,8 @@
 		287CAD352857C22600E441A3 /* ColorCalc */ = {
 			isa = PBXGroup;
 			children = (
-				287CAD362857C22600E441A3 /* ColorCalcApp.swift */,
-				287CAD382857C22600E441A3 /* ContentView.swift */,
+				287CAD662857C3E400E441A3 /* ReSwift */,
+				287CAD6E2857C4B200E441A3 /* Views */,
 				287CAD3A2857C22800E441A3 /* Assets.xcassets */,
 				287CAD3F2857C22800E441A3 /* ColorCalc.entitlements */,
 				287CAD3C2857C22800E441A3 /* Preview Content */,
@@ -129,6 +145,45 @@
 			path = ColorCalcUITests;
 			sourceTree = "<group>";
 		};
+		287CAD662857C3E400E441A3 /* ReSwift */ = {
+			isa = PBXGroup;
+			children = (
+				287CAD6F2857C62100E441A3 /* Reducers */,
+				287CAD6B2857C47B00E441A3 /* State */,
+				287CAD672857C40100E441A3 /* ObservableState.swift */,
+				287CAD692857C45700E441A3 /* Store.swift */,
+			);
+			path = ReSwift;
+			sourceTree = "<group>";
+		};
+		287CAD6B2857C47B00E441A3 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				287CAD6C2857C48500E441A3 /* GameState.swift */,
+				287CAD722857C92500E441A3 /* ChemColor.swift */,
+				287CAD742857CD3E00E441A3 /* TestTube.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		287CAD6E2857C4B200E441A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				287CAD362857C22600E441A3 /* ColorCalcApp.swift */,
+				287CAD382857C22600E441A3 /* ContentView.swift */,
+				287CAD612857C31500E441A3 /* TestTubeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		287CAD6F2857C62100E441A3 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				287CAD702857C64F00E441A3 /* reducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +200,9 @@
 			dependencies = (
 			);
 			name = ColorCalc;
+			packageProductDependencies = (
+				287CAD642857C38300E441A3 /* ReSwift */,
+			);
 			productName = ColorCalc;
 			productReference = 287CAD332857C22600E441A3 /* ColorCalc.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +275,9 @@
 				Base,
 			);
 			mainGroup = 287CAD2A2857C22600E441A3;
+			packageReferences = (
+				287CAD632857C38300E441A3 /* XCRemoteSwiftPackageReference "ReSwift" */,
+			);
 			productRefGroup = 287CAD342857C22600E441A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287CAD6A2857C45700E441A3 /* Store.swift in Sources */,
+				287CAD622857C31500E441A3 /* TestTubeView.swift in Sources */,
 				287CAD392857C22600E441A3 /* ContentView.swift in Sources */,
+				287CAD712857C64F00E441A3 /* reducer.swift in Sources */,
+				287CAD6D2857C48500E441A3 /* GameState.swift in Sources */,
+				287CAD682857C40100E441A3 /* ObservableState.swift in Sources */,
+				287CAD752857CD3E00E441A3 /* TestTube.swift in Sources */,
+				287CAD732857C92500E441A3 /* ChemColor.swift in Sources */,
 				287CAD372857C22600E441A3 /* ColorCalcApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -576,6 +644,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		287CAD632857C38300E441A3 /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		287CAD642857C38300E441A3 /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 287CAD632857C38300E441A3 /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 287CAD2B2857C22600E441A3 /* Project object */;
 }
