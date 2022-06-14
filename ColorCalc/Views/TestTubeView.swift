@@ -15,8 +15,8 @@ struct TestTubeView: View {
     
     var body: some View {
         VStack {
-            ForEach((0...3), id: \.self) {idx in
-                if let chem = tube.colors[idx] {
+            ForEach((0...3).reversed(), id: \.self) {idx in
+                if let chem = tube.getColor(idx) {
                     chem.color
                         .frame(width: 40, height: 40)
                 }

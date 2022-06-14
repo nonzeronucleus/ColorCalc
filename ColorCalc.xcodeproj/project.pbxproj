@@ -18,7 +18,7 @@
 		287CAD652857C38300E441A3 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 287CAD642857C38300E441A3 /* ReSwift */; };
 		287CAD682857C40100E441A3 /* ObservableState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD672857C40100E441A3 /* ObservableState.swift */; };
 		287CAD6A2857C45700E441A3 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD692857C45700E441A3 /* Store.swift */; };
-		287CAD6D2857C48500E441A3 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD6C2857C48500E441A3 /* GameState.swift */; };
+		287CAD6D2857C48500E441A3 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD6C2857C48500E441A3 /* AppState.swift */; };
 		287CAD712857C64F00E441A3 /* reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD702857C64F00E441A3 /* reducer.swift */; };
 		287CAD732857C92500E441A3 /* ChemColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD722857C92500E441A3 /* ChemColor.swift */; };
 		287CAD752857CD3E00E441A3 /* TestTube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CAD742857CD3E00E441A3 /* TestTube.swift */; };
@@ -58,7 +58,7 @@
 		287CAD612857C31500E441A3 /* TestTubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTubeView.swift; sourceTree = "<group>"; };
 		287CAD672857C40100E441A3 /* ObservableState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableState.swift; sourceTree = "<group>"; };
 		287CAD692857C45700E441A3 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		287CAD6C2857C48500E441A3 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		287CAD6C2857C48500E441A3 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		287CAD702857C64F00E441A3 /* reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reducer.swift; sourceTree = "<group>"; };
 		287CAD722857C92500E441A3 /* ChemColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemColor.swift; sourceTree = "<group>"; };
 		287CAD742857CD3E00E441A3 /* TestTube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTube.swift; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 		287CAD6B2857C47B00E441A3 /* State */ = {
 			isa = PBXGroup;
 			children = (
-				287CAD6C2857C48500E441A3 /* GameState.swift */,
+				287CAD6C2857C48500E441A3 /* AppState.swift */,
 				287CAD722857C92500E441A3 /* ChemColor.swift */,
 				287CAD742857CD3E00E441A3 /* TestTube.swift */,
 			);
@@ -339,7 +339,7 @@
 				287CAD392857C22600E441A3 /* ContentView.swift in Sources */,
 				287CAD712857C64F00E441A3 /* reducer.swift in Sources */,
 				287CAD782858AAAC00E441A3 /* MoveAction.swift in Sources */,
-				287CAD6D2857C48500E441A3 /* GameState.swift in Sources */,
+				287CAD6D2857C48500E441A3 /* AppState.swift in Sources */,
 				287CAD682857C40100E441A3 /* ObservableState.swift in Sources */,
 				287CAD752857CD3E00E441A3 /* TestTube.swift in Sources */,
 				287CAD7A2858AB8900E441A3 /* handleMove.swift in Sources */,

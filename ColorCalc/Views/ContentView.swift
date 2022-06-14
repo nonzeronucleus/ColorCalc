@@ -7,12 +7,13 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentViewImpl: View {
     var testTubes:[TestTube]
-    
+
     init(_ testTubes:[TestTube]) {
         self.testTubes = testTubes
     }
+    
     var body: some View {
         HStack {
             ForEach((0...testTubes.count - 1), id: \.self) {idx in
@@ -25,7 +26,19 @@ struct ContentView: View {
     }
 }
 
+struct ContentView: View {
+    @EnvironmentObject private var state:ObservableState<AppState>
+    
+    var body: some View {
+        let testTubes = state.current.tubes
+
+        ContentViewImpl(testTubes)
+    }
+}
+
+
 struct ContentView_Previews: PreviewProvider {
+    
     static var previews: some View {
         let testTubes = [
             TestTube([.DarkBlue,.DarkGreen,.LightBlue,.LightBlue]),
@@ -35,7 +48,7 @@ struct ContentView_Previews: PreviewProvider {
         ]
 
         
-        ContentView(testTubes)
+        ContentViewImpl(testTubes)
 //            .frame(width: 800, height: 800, alignment: .top)
     }
 }

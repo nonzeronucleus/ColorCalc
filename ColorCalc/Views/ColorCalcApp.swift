@@ -9,20 +9,18 @@ import SwiftUI
 
 @main
 struct ColorCalcApp: App {
-    let state = GameState()
+    @ObservedObject private var store:ObservableState<AppState>
+    
+    init() {
+        let store = createStore()
+        store.dispatch(MoveAction(from: 0, to: 12))
+        self.store = store
+    }
     
     var body: some Scene {
         WindowGroup {
-//            let testTubes = [
-//                TestTube([.DarkBlue,.DarkGreen,.LightBlue,.LightBlue]),
-//                TestTube([.Purple,.Pink,.LightGreen,.Grey]),
-//                TestTube([.LightBrown,.Purple,.Red,.DarkBrown]),
-//                TestTube([.LightBrown,.Pink,.Red,.LightBrown])
-//            ]
-//
-            
-            ContentView(state.tubes)
-//                .frame(width: 800, height: 800, alignment: .top)
+            ContentView()
+                .environmentObject(store)
         }
     }
 }

@@ -1,7 +1,7 @@
 import ReSwift
 
-func reducer(action: Action, state: GameState?) -> GameState {
-    var state = state ?? GameState()
+func reducer(action: Action, state: AppState?) -> AppState {
+    var state = state ?? AppState()
     
 ////    state.error = nil
 //
